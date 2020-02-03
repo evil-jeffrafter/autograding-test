@@ -1,0 +1,10 @@
+name: Autograding workflow
+
+on: [push]
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    steps:
+      - uses: evil-jeffrafter/autograding@v1
